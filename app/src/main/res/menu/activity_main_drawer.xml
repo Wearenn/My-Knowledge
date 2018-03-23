@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_accueil"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Accueil" />
+        <item
+            android:id="@+id/nav_film"
+            android:icon="@drawable/ic_movie_black_24dp"
+            android:title="Films" />
+        <item
+            android:id="@+id/nav_musqiue"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Musiques" />
+        <item
+            android:id="@+id/nav_serie"
+            android:icon="@drawable/ic_local_movies_black_24dp"
+            android:title="Séries" />
+        <item
+            android:id="@+id/nav_jv"
+            android:icon="@drawable/ic_games_black_24dp"
+            android:title="Jeux Vidéos" />
+    </group>
+
+    <item android:title="Communiquer">
+        <menu>
+            <item
+                android:id="@+id/nav_ami"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Amis" />
+            <item
+                android:id="@+id/nav_favoris"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Favoris" />
+        </menu>
+    </item>
+
+    <item android:title="Paramètres">
+        <menu>
+            <item
+                android:id="@+id/nav_parametre"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Paramètres" />
+        </menu>
+    </item>
+
+</menu>
